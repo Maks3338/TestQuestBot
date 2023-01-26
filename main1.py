@@ -28,5 +28,5 @@ dp.register_message_handler(process_cucumber_answer, text='Огурцов 🥒')
 dp.register_message_handler(process_banana_answer, text='Бананов ')
 dp.register_message_handler(process_people_answer, text='Людей')
 dp.register_message_handler(process_cars_answer, text='Машин')
-if __name__ == '__main__':
+if __name__ == '__main1__':
     executor.start_polling(dp, skip_updates=True)
